@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Library</h1> 
+        <div class="login">
+            <button class="button">Login</button>
+        </div>
+    </div>
+    <div class="add">
+        <button class="button">+ Add book</button>
+    </div>
+    <div class="container">
+
+    </div>
+    <div class="disp">
+        <form class="popup">
+            <div class="heading">Book information</div>
+            <div>
+                <label for="title">book title:</label>
+                <input type="text" name="title" id="title" required>
+            </div>
+            <div>
+                <label for="author">book author:</label>
+                <input type="text" name="author" id="author" required>
+            </div>
+            <div>
+                <label for="pages">Number of pages:</label>
+                <input type="number" name="pages" id="pages" required>
+            </div>
+
+            <div class="info">
+                <input type="checkbox" id="haveRead" name="option" value="yes">
+                <label for="haveRead">check if you have read the book</label>
+            </div>
+            <div>
+                <button class="popsubmit" type="submit">submit</button>
+            </div>
+            
+          
+        </form>
+    </div>
+</body>
+</html>
